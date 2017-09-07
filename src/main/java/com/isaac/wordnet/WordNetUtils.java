@@ -139,23 +139,33 @@ public class WordNetUtils {
     }
 
     /**
-     * Detect whether the given synset id string fit the correct format
+     * Detect whether the given synset id string fits the correct format
      * @param synsetId given synset id
      * @return true if the given synset id string in correct format, otherwise false
      */
     public static boolean synsetIdPattern (String synsetId) {
-        Pattern pattern = Pattern.compile("(\\w{3})[-](\\d{8})[-](\\w)");
+        Pattern pattern = Pattern.compile("(\\w{3})[-](\\d{8})[-](\\w)"); // e.g.: SID-02081903-V
         return pattern.matcher(synsetId).matches();
     }
 
     /**
+     * Detect whether the given word id string fits the correct format
+     * @param wordId given word id
+     * @return true if the given word is string in correct format, otherwise false
+     */
+    public static boolean wordIdPattern (String wordId) {
+        Pattern pattern = Pattern.compile("(\\w{3})[-](\\d{8})[-](\\w)[-](\\d{2})[-][_\\w]+"); // e.g.: WID-01535377-V-02-make_clean
+        return pattern.matcher(wordId).matches();
+    }
+
+    /**
      * Detect whether the given sense key string fit the correct format
-     * @param senseKeyString given sense key string
+     * @param senseKey given sense key string
      * @return true if the given sense key string in correct format, otherwise false
      */
-    public static boolean senseKeyPattern (String senseKeyString) {
-        Pattern pattern = Pattern.compile("[_\\w]+[%](\\d)[:](\\d){2}[:](\\d){2}(:{2})"); // e.g.: time%1:28:03::
-        return pattern.matcher(senseKeyString).matches();
+    public static boolean senseKeyPattern (String senseKey) {
+        Pattern pattern = Pattern.compile("[_\\w]+[%](\\d)[:](\\d){2}[:](\\d){2}(:{2})"); // e.g.: time%1:28:03::, make_clean%2:35:00::
+        return pattern.matcher(senseKey).matches();
     }
 
     /** classify all words with specific POS tag in WordNet by lexical domain */
