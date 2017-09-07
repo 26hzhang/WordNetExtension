@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.isaac.wordnet</groupId>
+    <artifactId>WordNetExtension</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <build>
+        <finalName>WordNetAnalysis</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                   <!--<mainClass>com.isaac.examples.wordnet.ExtendCoreWordNetExample</mainClass>-->
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <verbnet-version>1.2.0.1</verbnet-version>
+        <stanfordcorenlp.version>3.6.0</stanfordcorenlp.version>
+        <wordnet.version>2.2.3</wordnet.version>
+        <guava.version>21.0</guava.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>edu.mit</groupId>
+            <artifactId>jverbnet</artifactId>
+            <version>${verbnet-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.mit</groupId>
+            <artifactId>jwi</artifactId>
+            <version>${wordnet.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>${stanfordcorenlp.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>${stanfordcorenlp.version}</version>
+            <classifier>models</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
