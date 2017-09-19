@@ -1,13 +1,14 @@
 package com.isaac.examples;
 
 import com.isaac.wordnet.WordNetUtils;
-import com.isaac.utils.IOUtils;
 import edu.mit.jwi.data.parse.SenseKeyParser;
 import edu.mit.jwi.item.ISenseKey;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.IWord;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,7 +24,7 @@ public class ExtendCoreWordNet {
     /** Extend core wordnet list */
     private static void extendCoreWordNet(String inFilename, String outFilename) throws IOException {
         Map<String, Integer> bnc = loadBNCData();
-        List<String> cwn = IOUtils.loadFile2List(inFilename);
+        List<String> cwn = Files.readAllLines(Paths.get(WordNetUtils.GLOBALPATH.concat(inFilename)));
         BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/zhanghao/Desktop/".concat(outFilename)));
         try {
             writer.write(String.join("\t", "POS", "Word", "SenseKey", "Sense_Number", "Total_Senses",

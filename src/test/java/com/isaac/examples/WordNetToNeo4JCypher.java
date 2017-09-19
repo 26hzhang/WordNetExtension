@@ -2,7 +2,6 @@ package com.isaac.examples;
 
 import com.isaac.representation.SynsetElement;
 import com.isaac.representation.WordElement;
-import com.isaac.utils.IOUtils;
 import com.isaac.wordnet.*;
 import com.isaac.wordnet.WordNetUtils;
 import edu.mit.jwi.item.ISynset;
@@ -13,16 +12,18 @@ import javafx.util.Pair;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 
 
 public class WordNetToNeo4JCypher {
     public static void main (String[] args) throws IOException {
         String infilename = "data/upd_corewn_with_sense.txt";
-        String outfilename = "data/cypher-noun-test.txt";
+        String outfilename = "data/cypher-result.txt";
         POS tag = POS.NOUN;
         String tagStr = POSMap.get(tag);
-        List<String> corewn = IOUtils.loadFile2List(infilename);
+        List<String> corewn = Files.readAllLines(Paths.get(WordNetUtils.GLOBALPATH.concat(infilename)));
         List<Pair<String, String>> wordlst = new ArrayList<>();
         for (String line : corewn) {
             String[] arr = line.split("\t");

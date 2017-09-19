@@ -13,12 +13,8 @@ import java.util.stream.Collectors;
 
 import static com.isaac.wordnet.WordNetUtils.wndict;
 
-public class SpecificVerb {
+public class MannerResultSingleVerbExample {
     public static void main (String[] args) throws IOException {
-        // clean%2:35:00::
-        // grind%2:30:00::
-        // remove%2:30:00::
-        // "remove%2:30:00::"
         String keyStr = "change%2:30:01::";
         ISenseKey key = WordNetUtils.parseSenseKeyString(keyStr);
         IWord word = WordNetUtils.getWordBySenseKey(key);
@@ -47,7 +43,7 @@ public class SpecificVerb {
                 else res.addLast(list.get(i).getSynsetStr().concat("-NONE"));
             }
             if (count == 0) continue;
-            while (res.getLast().contains("NONE")) res.removeLast();
+            while (res.getLast().contains("NONE")) res.removeLast(); // remove tails
             if (unique.add(res.toString())) result.add(res);
         }
         result.forEach(System.out::println);
@@ -65,7 +61,6 @@ public class SpecificVerb {
     private static boolean isResultSynset (SynsetElement synsetElement) {
         List<String> gloss = Arrays.asList(synsetElement.getGloss().split(";")[0].split(" "));
         int idx = gloss.indexOf("by") + gloss.indexOf("with");
-        //int idx = gloss.indexOf("with");
         return idx != -2;
     }
 }
