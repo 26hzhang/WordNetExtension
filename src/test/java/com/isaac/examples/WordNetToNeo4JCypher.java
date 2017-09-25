@@ -16,13 +16,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-
 public class WordNetToNeo4JCypher {
     public static void main (String[] args) throws IOException {
         String infilename = "data/upd_corewn_with_sense.txt";
         String outfilename = "data/cypher-result.txt";
         POS tag = POS.NOUN;
-        String tagStr = POSMap.get(tag);
+        String tagStr = "n"; // POS.VERB: v, POS.NOUN: n, POS.ADJECTIVE & POS.ADVERB: a
         List<String> corewn = Files.readAllLines(Paths.get(WordNetUtils.GLOBALPATH.concat(infilename)));
         List<Pair<String, String>> wordlst = new ArrayList<>();
         for (String line : corewn) {
@@ -94,17 +93,6 @@ public class WordNetToNeo4JCypher {
         node.addAll(relation);
         return node;
     }
-
-    /** POS tag pairs */
-    private static final Map<POS, String> POSMap = new HashMap<POS, String>() {
-        private static final long serialVersionUID = 1L;
-        {
-            put(POS.VERB, "v");
-            put(POS.NOUN, "n");
-            put(POS.ADJECTIVE, "a");
-            put(POS.ADVERB, "a");
-        }
-    };
 
     /** Extract word element, each pair contains a word lemma and a list of its different types in WordNet */
     private static Map<String, WordElement> extractWordElements (List<LinkedList<SynsetElement>> list) {

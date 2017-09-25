@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 public class CoreWNClassificationByLexDom {
     public static void main (String[] args) throws IOException {
-        String tagStr = POSMap.get(POS.VERB);
+        String tagStr = "v"; // POS.VERB: v, POS.NOUN: n, POS.ADJECTIVE & POS.ADVERB: a
         List<String> cwn = Files.readAllLines(Paths.get(WordNetUtils.GLOBALPATH.concat("data/core-wordnet-list.txt")));
         Map<String, List<String>> map = cwn.stream()
                 .filter(line -> line.split(" ")[0].equals(tagStr))
@@ -36,15 +36,4 @@ public class CoreWNClassificationByLexDom {
         });
         System.out.println("done...");
     }
-
-    /** POS tag pairs */
-    private static final Map<POS, String> POSMap = new HashMap<POS, String>() {
-        private static final long serialVersionUID = 1L;
-        {
-            put(POS.VERB, "v");
-            put(POS.NOUN, "n");
-            put(POS.ADJECTIVE, "a");
-            put(POS.ADVERB, "a");
-        }
-    };
 }

@@ -5,15 +5,11 @@ import edu.mit.jwi.item.POS;
 import javafx.util.Pair;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class WordNetExtraction {
-
-    /** {@link List} of POS tags {NOUN, VERB, ADJECTIVE, ADVERB} */
-    private static final List<POS> POSLIST = new ArrayList<>(Arrays.asList(POS.NOUN, POS.VERB, POS.ADJECTIVE, POS.ADVERB));
 
     /**
      * Extract hierarchy path of given list of word and synset id pairs within the specific POS tag, for each word,

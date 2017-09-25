@@ -1,0 +1,127 @@
+{become}
+{blind}
+{break, get_out, get_around}
+{change, alter, vary}
+{change}
+{connect, link, link_up, join, unite}
+{despair}
+{die}
+{discontinue, stop, cease, give_up, quit, lay_off}
+{discourage}
+{enter, participate}
+{fall_asleep, dope_off, flake_out, drift_off, nod_off, drop_off, doze_off, drowse_off}
+{fall}
+{fire, flame_up}
+{free, discharge}
+{free, liberate, release, unloose, unloosen, loose}
+{get, acquire}
+{gladden, joy}
+{learn, hear, get_word, get_wind, pick_up, find_out, get_a_line, discover, see}
+{lose}
+{move}
+{perceive, comprehend}
+{rest}
+{satisfy, gratify}
+{separate, part, split_up, split, break, break_up}
+{show}
+{take}
+{change, alter, modify}
+{absorb, suck, imbibe, soak_up, sop_up, suck_up, draw, take_in, take_up}
+{absorb, take_in}
+{affect, impress, move, strike}
+{appear, come_along}
+{appear}
+{appoint, charge}
+{arm, build_up, fortify, gird}
+{arrive, get, come}
+{assail, assault, set_on, attack}
+{assemble, gather, get_together}
+{bring_in, introduce}
+{burn, combust}
+{cheer, cheer_up, jolly_along, jolly_up}
+{choose, prefer, opt}
+{close, shut}
+{collapse, burst}
+{collide}
+{comfort, soothe, console, solace}
+{complain, kick, plain, sound_off, quetch, kvetch}
+{conceal, hold_back, hold_in}
+{confine, detain}
+{confirm, corroborate, sustain, substantiate, support, affirm}
+{connect, link, tie, link_up}
+{control, command}
+{cover}
+{create}
+{cultivate}
+{decide, make_up_one's_mind, determine}
+{designate, denominate}
+{destroy, ruin}
+{determine, check, find_out, see, ascertain, watch, learn}
+{determine, find, find_out, ascertain}
+{determine, set}
+{disappear, vanish, go_away}
+{discover}
+{dishonor, disgrace, dishonour, attaint, shame}
+{disrupt}
+{enter, come_in, get_into, get_in, go_into, go_in, move_into}
+{exhaust, discharge, expel, eject, release}
+{fracture}
+{free, disengage}
+{gain, advance, win, pull_ahead, make_headway, get_ahead, gain_ground}
+{gather, garner, collect, pull_together}
+{get_off}
+{get_rid_of, remove}
+{get_the_better_of, overcome, defeat}
+{give}
+{hide, conceal}
+{hire, engage, employ}
+{hold, support, sustain, hold_up}
+{install, instal, set_up, establish}
+{install, instal}
+{issue, emerge, come_out, come_forth, go_forth, egress}
+{join, fall_in, get_together}
+{kill}
+{kill}
+{kill}
+{lead, take, direct, conduct, guide}
+{learn, larn, acquire}
+{leave, go_forth, go_away}
+{leave_behind}
+{leave}
+{let_go_of, let_go, release, relinquish}
+{madden, craze}
+{open, open_up}
+{oppress, suppress, crush}
+{overlay, cover}
+{percolate}
+{produce, bring_on, bring_out}
+{produce, make, create}
+{punish, penalize, penalise}
+{reach, make, attain, hit, arrive_at, gain}
+{remember, retrieve, recall, call_back, call_up, recollect, think}
+{remember, think_back}
+{remind}
+{remove, take, take_away, withdraw}
+{remove, take_away}
+{remove}
+{restrict, trammel, limit, bound, confine, throttle}
+{rid, free, disembarrass}
+{save, carry_through, pull_through, bring_through}
+{sensitize, sensitise}
+{separate, divide}
+{settle, locate}
+{snuff_out, blow_out, extinguish, quench}
+{spread, distribute}
+{succeed, win, come_through, bring_home_the_bacon, deliver_the_goods}
+{support, back_up}
+{switch, shift, change}
+{take, get_hold_of}
+{take_out, move_out, remove}
+{touch}
+{transfer}
+{treat, care_for}
+{uncover, expose}
+{understand, realize, realise, see}
+{understand}
+{unmake, undo}
+{win}

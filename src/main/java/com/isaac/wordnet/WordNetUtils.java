@@ -1,7 +1,6 @@
 package com.isaac.wordnet;
 
 import com.isaac.representation.SynsetElement;
-import com.isaac.representation.WordElement;
 import edu.mit.jwi.Dictionary;
 import edu.mit.jwi.IDictionary;
 import edu.mit.jwi.data.parse.SenseKeyParser;
@@ -15,13 +14,18 @@ import java.util.stream.Collectors;
 
 public class WordNetUtils {
 
+    /** resources directory path */
     public static final String GLOBALPATH = "src/main/resources/";
-    private static final String WordNetHome = GLOBALPATH + "dict/wn-dict3.1";
 
+    /** {@link List} of POS tags {NOUN, VERB, ADJECTIVE, ADVERB} */
+    public static final List<POS> POSLIST = new ArrayList<>(Arrays.asList(POS.NOUN, POS.VERB, POS.ADJECTIVE, POS.ADVERB));
+
+    /** Initialize IDictionary */
     public static final IDictionary wndict;
     static {
         URL wnUrl = null;
         try {
+            String WordNetHome = GLOBALPATH.concat("dict/wn-dict3.1");
             wnUrl = new URL("file", null, WordNetHome);
         } catch (IOException e) {
             e.printStackTrace();
@@ -35,18 +39,21 @@ public class WordNetUtils {
     }
 
     /** initialize lexical domains, here includes all the lexical domains for nouns in WordNet */
-    public static final List<String> nounLexicalDomain = new ArrayList<>(Arrays.asList("Tops", "act", "animal", "artifact",
+    public static final List<String> nounLexicalFile = new ArrayList<>(Arrays.asList("Tops", "act", "animal", "artifact",
             "attribute", "body", "cognition", "communication", "event", "feeling", "food", "group", "location", "motive",
             "object", "person", "phenomenon", "plant", "possession", "process", "quantity", "relation", "shape", "state",
             "substance", "time"));
+
     /** initialize lexical domains, here includes all the lexical domains for verbs in WordNet */
-    public static final List<String> verbLexicalDomain = new ArrayList<>(Arrays.asList("body", "change", "cognition",
+    public static final List<String> verbLexicalFile = new ArrayList<>(Arrays.asList("body", "change", "cognition",
             "communication", "competition", "consumption", "contact", "creation", "emotion", "motion", "perception",
             "possession", "social", "stative", "weather"));
+
     /** initialize lexical domains, here includes all the lexical domains for adjectives in WordNet */
-    public static final List<String> adjectiveLexicalDomain = new ArrayList<>(Arrays.asList("all", "pert", "ppl"));
+    public static final List<String> adjectiveLexicalFile = new ArrayList<>(Arrays.asList("all", "pert", "ppl"));
+
     /** initialize lexical domains, here includes all the lexical domains for adverbs in WordNet */
-    public static final List<String> aderbLexicalDomain = new ArrayList<>(Collections.singletonList("all"));
+    public static final List<String> adverbLexicalFile = new ArrayList<>(Collections.singletonList("all"));
 
     /** @return {@link ISenseKey} for a given senseKeyString, null if the format is incorrect */
     public static ISenseKey parseSenseKeyString (String senseKeyString) {
@@ -60,6 +67,16 @@ public class WordNetUtils {
 
     /** @return {@link IWord} for a given {@link ISenseKey} */
     public static IWord getWordBySenseKey (ISenseKey senseKey) { return wndict.getWord(senseKey); }
+
+    /** @return {@link IWord} for a given ISenseKey string */
+    public static IWord getWordBySenseKeyStr (String senseKeyStr) {
+        ISenseKey key = parseSenseKeyString(senseKeyStr);
+        if (key == null) return null;
+        return getWordBySenseKey(key);
+    }
+
+    /** @return lexical domain string for a given {@link ISenseKey} */
+    public static String getLexicalFileBySenseKey(ISenseKey senseKey) { return senseKey.getLexicalFile().toString(); }
 
     /** @return {@link IWord} for a given {@link IWordID} */
     public static IWord getWordByWordId (IWordID wordID) { return wndict.getWord(wordID); }
@@ -150,22 +167,26 @@ public class WordNetUtils {
 
     /**
      * Detect whether the given word id string fits the correct format
+     *      e.g.: detect word id like: WID-01535377-V-02-make_clean
      * @param wordId given word id
      * @return true if the given word is string in correct format, otherwise false
      */
     public static boolean wordIdPattern (String wordId) {
-        Pattern pattern = Pattern.compile("(\\w{3})[-](\\d{8})[-](\\w)[-](\\d{2})[-][_\\w]+"); // e.g.: WID-01535377-V-02-make_clean
+        Pattern pattern = Pattern.compile("(\\w{3})[-](\\d{8})[-](\\w)[-](\\d{2})[-][_\\w]+");
         return pattern.matcher(wordId).matches();
     }
 
     /**
      * Detect whether the given sense key string fit the correct format
+     *      e.g.: detect the sense key like: time%1:28:03::, make_clean%2:35:00::
      * @param senseKey given sense key string
      * @return true if the given sense key string in correct format, otherwise false
      */
-    public static boolean senseKeyPattern (String senseKey) {
-        Pattern pattern = Pattern.compile("[_\\w]+[%](\\d)[:](\\d){2}[:](\\d){2}(:{2})"); // e.g.: time%1:28:03::, make_clean%2:35:00::
-        return pattern.matcher(senseKey).matches();
+    public static boolean senseKeyPattern (String senseKey) { // may have some problems here, I'm not sure whether it contains all the format of Sense Key
+        Pattern pattern1 = Pattern.compile("[-_\\w]+[%](\\d)[:](\\d){2}[:](\\d){2}(:{2})"); // e.g.: time%1:28:03::, make_clean%2:35:00::, t-shirt%1:06:00::
+        if (pattern1.matcher(senseKey).matches()) return true;
+        Pattern pattern2 = Pattern.compile("[-_\\w]+[%](\\d)[:](\\d){2}[:](\\d){2}[:][-_\\w]+[:](\\d){2}"); // e.g.: amber%5:00:00:chromatic:00
+        return pattern2.matcher(senseKey).matches();
     }
 
     /** classify all words with specific POS tag in WordNet by lexical domain */
