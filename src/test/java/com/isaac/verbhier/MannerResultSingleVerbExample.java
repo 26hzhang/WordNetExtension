@@ -1,4 +1,4 @@
-package com.isaac.examples;
+package com.isaac.verbhier;
 
 import com.isaac.wordnet.BaseExtraction;
 import com.isaac.wordnet.WordNetUtils;

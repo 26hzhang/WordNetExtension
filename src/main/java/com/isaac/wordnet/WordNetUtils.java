@@ -18,7 +18,7 @@ public class WordNetUtils {
     public static final String GLOBALPATH = "src/main/resources/";
 
     /** {@link List} of POS tags {NOUN, VERB, ADJECTIVE, ADVERB} */
-    public static final List<POS> POSLIST = new ArrayList<>(Arrays.asList(POS.NOUN, POS.VERB, POS.ADJECTIVE, POS.ADVERB));
+    public static final List<POS> POSList = new ArrayList<>(Arrays.asList(POS.NOUN, POS.VERB, POS.ADJECTIVE, POS.ADVERB));
 
     /** Initialize IDictionary */
     public static final IDictionary wndict;
@@ -90,15 +90,13 @@ public class WordNetUtils {
 
     /** @return tag count for a given {@link IWord} */
     public static int getTagCount4IWord (IWord iWord) {
-        if (wndict.getSenseEntry(iWord.getSenseKey()) != null)
-            return wndict.getSenseEntry(iWord.getSenseKey()).getTagCount();
+        if (wndict.getSenseEntry(iWord.getSenseKey()) != null) return wndict.getSenseEntry(iWord.getSenseKey()).getTagCount();
         else return 0;
     }
 
     /** @return sense number for a given {@link IWord} */
     public static int getSenseNumber4IWord (IWord iWord) {
-        if (wndict.getSenseEntry(iWord.getSenseKey()) != null)
-            return wndict.getSenseEntry(iWord.getSenseKey()).getSenseNumber();
+        if (wndict.getSenseEntry(iWord.getSenseKey()) != null) return wndict.getSenseEntry(iWord.getSenseKey()).getSenseNumber();
         else return 0;
     }
 
@@ -114,9 +112,7 @@ public class WordNetUtils {
      * @param tag part of speech tag
      * @return number of sense for the given word with specific POS
      */
-    public static int getNumberOfSense4Word (String word, POS tag) {
-        return wndict.getIndexWord(word, tag).getWordIDs().size();
-    }
+    public static int getNumberOfSense4Word (String word, POS tag) { return wndict.getIndexWord(word, tag).getWordIDs().size(); }
 
     /**
      * Compute the sum of tag count for a given word with specific POS
@@ -146,13 +142,15 @@ public class WordNetUtils {
     /**
      * Convert a list of synset element to hierarchy path
      * @param list {@link LinkedList} of {@link SynsetElement}, which is a hierarchy path of {@link SynsetElement}
+     * @param includeSynsetId true to include synsetId, false to ignore it
      * @return hierarchy path string
      */
-    public static String hierarchyPath2String (LinkedList<SynsetElement> list) {
+    public static String hierarchyPath2String (LinkedList<SynsetElement> list, boolean includeSynsetId) {
         if (list == null || list.isEmpty()) return "";
-        return String.join("-->", list.stream()
-                .map(element -> element.getSynsetId() + "-" + element.getSynsetStr())
-                .collect(Collectors.toList()));
+        return String.join("-->", list.stream().map(element -> {
+                    if (includeSynsetId) return element.getSynsetId().concat("-").concat(element.getSynsetStr());
+                    else return element.getSynsetStr();
+                }).collect(Collectors.toList()));
     }
 
     /**
@@ -194,10 +192,8 @@ public class WordNetUtils {
         Map<String, LinkedHashSet<String>> map = new HashMap<>();
         wndict.getSynsetIterator(tag).forEachRemaining(synset -> {
             String name = synset.getLexicalFile().toString();
-            if (map.containsKey(name))
-                synset.getWords().forEach(iwrd -> map.get(name).add(iwrd.getLemma()));
-            else
-                map.put(name, synset.getWords().stream().map(IWord::getLemma).collect(Collectors.toCollection(LinkedHashSet::new)));
+            if (map.containsKey(name)) synset.getWords().forEach(iwrd -> map.get(name).add(iwrd.getLemma()));
+            else map.put(name, synset.getWords().stream().map(IWord::getLemma).collect(Collectors.toCollection(LinkedHashSet::new)));
         });
         return map;
     }

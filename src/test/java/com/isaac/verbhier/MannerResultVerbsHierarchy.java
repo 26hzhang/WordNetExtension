@@ -1,4 +1,4 @@
-package com.isaac.examples;
+package com.isaac.verbhier;
 
 import com.isaac.representation.SynsetElement;
 import com.isaac.wordnet.BaseExtraction;
@@ -14,16 +14,19 @@ import java.util.stream.Collectors;
 public class MannerResultVerbsHierarchy {
     public static void main (String[] args) throws IOException {
         // load verb synset strings to list
-        List<String> resultSynsetsString = Files.readAllLines(Paths.get(WordNetUtils.GLOBALPATH.concat("data/result_verbs_synsets.txt")));
+        List<String> resultSynsetsString = Files.readAllLines(Paths.get(WordNetUtils.GLOBALPATH
+                .concat("data/104-result-verbs.txt")));
         // convert those synset string to ISynset (only if the those synsets are at the top level )
-        List<ISynset> synsets = convert2Synsets(resultSynsetsString);
-        List<LinkedList<String>> results = new ArrayList<>(200000);
+        List<ISynset> synsets = convert2SynsetsById(resultSynsetsString);
+        /*synsets.forEach(synset -> { // testing
+        	System.out.println(WordNetUtils.synset2String(synset, false) + "\t" + synset.getGloss().split(";")[0].trim());
+        });
+        System.out.println(synsets.size());*/
+        List<LinkedList<String>> results = new ArrayList<>();
         synsets.forEach(iSynset -> results.addAll(getTroponyms(iSynset)));
-        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/zhanghao/Desktop/verbs_hierarchies.txt"));
-        for (List<String> list : results) {
-            writer.write(String.join("\t", list));
-            writer.write("\n");
-        }
+        BufferedWriter writer = new BufferedWriter(new FileWriter(WordNetUtils.GLOBALPATH.concat("data/verbs_hierarchies.txt")));
+        for (List<String> list : results)
+            writer.write(String.join("\t", list).concat("\n"));
         writer.close();
         System.out.println("Done...");
     }
@@ -42,15 +45,27 @@ public class MannerResultVerbsHierarchy {
                 }
                 else res.addLast(list.get(i).getSynsetStr().concat("-NONE"));
             }
-            if (count == 0) continue;
-            while (res.getLast().contains("NONE")) res.removeLast(); // remove tails
+            if (count == 0) continue; // if this line only contain NONE, remove this line
+            if (res.getLast().contains("NONE")) continue; // if tails is NONE, remove this line
+            //while (res.getLast().contains("NONE")) res.removeLast(); // remove tails, deprecated
             if (unique.add(res.toString())) troponyms.add(res);
         }
         // print the troponym size
-        System.out.println(WordNetUtils.synset2String(iSynset, false) + "\t" + troponyms.size());
+        //System.out.println(WordNetUtils.synset2String(iSynset, false) + "\t" + troponyms.size());
         return troponyms;
     }
 
+    private static List<ISynset> convert2SynsetsById (List<String> resultSynsetsString) {
+        List<ISynset> synsets = new ArrayList<>();
+        resultSynsetsString.forEach(str -> {
+            String id = str.split("\t")[0].trim();
+            ISynset synset = WordNetUtils.getSynsetBySynsetId(WordNetUtils.parseSynsetIDString(id));
+            synsets.add(synset);
+        });
+        return synsets;
+    }
+
+    @SuppressWarnings("unused")
     private static List<ISynset> convert2Synsets (List<String> resultSynsetsString) {
         LinkedHashSet<ISynset> synsets = new LinkedHashSet<>();
         resultSynsetsString.forEach(synsetStr -> {
