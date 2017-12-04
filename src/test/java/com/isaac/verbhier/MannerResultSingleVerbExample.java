@@ -2,7 +2,7 @@ package com.isaac.verbhier;
 
 import com.isaac.wordnet.BaseExtraction;
 import com.isaac.wordnet.WordNetUtils;
-import com.isaac.representation.SynsetElement;
+import com.isaac.phrases.SynsetElement;
 import edu.mit.jwi.item.*;
 
 import java.io.BufferedWriter;

@@ -1,6 +1,6 @@
 package com.isaac.wordnet;
 
-import com.isaac.representation.SynsetElement;
+import com.isaac.phrases.SynsetElement;
 import edu.mit.jwi.item.IIndexWord;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.ISynsetID;

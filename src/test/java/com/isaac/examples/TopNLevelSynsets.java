@@ -12,7 +12,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import com.isaac.representation.SynsetElement;
+import com.isaac.phrases.SynsetElement;
 import com.isaac.wordnet.BaseExtraction;
 import com.isaac.wordnet.WordNetUtils;
 import edu.mit.jwi.item.POS;

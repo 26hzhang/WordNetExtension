@@ -1,4 +1,4 @@
-package com.isaac.representation;
+package com.isaac.phrases;
 
 import com.isaac.wordnet.WordNetUtils;
 import edu.mit.jwi.item.IIndexWord;

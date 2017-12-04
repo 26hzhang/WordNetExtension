@@ -1,6 +1,6 @@
 package com.isaac.wordnet;
 
-import com.isaac.representation.SynsetElement;
+import com.isaac.phrases.SynsetElement;
 import edu.mit.jwi.Dictionary;
 import edu.mit.jwi.IDictionary;
 import edu.mit.jwi.data.parse.SenseKeyParser;
@@ -12,30 +12,25 @@ import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("unused")
 public class WordNetUtils {
 
     /** resources directory path */
     public static final String GLOBALPATH = "src/main/resources/";
 
     /** {@link List} of POS tags {NOUN, VERB, ADJECTIVE, ADVERB} */
-    public static final List<POS> POSList = new ArrayList<>(Arrays.asList(POS.NOUN, POS.VERB, POS.ADJECTIVE, POS.ADVERB));
+    private static final List<POS> POSList = new ArrayList<>(Arrays.asList(POS.NOUN, POS.VERB, POS.ADJECTIVE, POS.ADVERB));
 
     /** Initialize IDictionary */
     public static final IDictionary wndict;
     static {
         URL wnUrl = null;
-        try {
-            String WordNetHome = GLOBALPATH.concat("dict/wn-dict3.1");
-            wnUrl = new URL("file", null, WordNetHome);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        try { wnUrl = new URL("file", null, GLOBALPATH.concat("dict/wn-dict3.1"));
+        } catch (IOException e) { e.printStackTrace(); }
+        assert  wnUrl != null;
         wndict = new Dictionary(wnUrl);
-        try {
-            wndict.open();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        try { wndict.open();
+        } catch (IOException e) { e.printStackTrace(); }
     }
 
     /** initialize lexical domains, here includes all the lexical domains for nouns in WordNet */
@@ -54,6 +49,24 @@ public class WordNetUtils {
 
     /** initialize lexical domains, here includes all the lexical domains for adverbs in WordNet */
     public static final List<String> adverbLexicalFile = new ArrayList<>(Collections.singletonList("all"));
+
+    /** @return total synsets in wordnet */
+    public static Integer totalSynsetsInWordNet () {
+        Integer count = 0;
+        for (POS type : POSList) count += totalSynsetsInWordNet(type);
+        return count;
+    }
+
+    /** @return total synsets of specific POS type in wordnet */
+    public static Integer totalSynsetsInWordNet(POS type) {
+        Iterator<ISynset> iter = getSynsetIterator(type);
+        Integer count = 0;
+        while (iter.hasNext()) {
+            iter.next();
+            count++;
+        }
+        return count;
+    }
 
     /** @return {@link ISenseKey} for a given senseKeyString, null if the format is incorrect */
     public static ISenseKey parseSenseKeyString (String senseKeyString) {
@@ -134,8 +147,7 @@ public class WordNetUtils {
      */
     public static String synset2String (ISynset synset, boolean includeSynsetId) {
         String str = includeSynsetId ? synset.getID().toString().concat("----{") : "{";
-        return str.concat(String.join(", ",
-                synset.getWords().stream().map(IWord::getLemma).collect(Collectors.toList())))
+        return str.concat(String.join(", ", synset.getWords().stream().map(IWord::getLemma).collect(Collectors.toList())))
                 .concat("}");
     }
 

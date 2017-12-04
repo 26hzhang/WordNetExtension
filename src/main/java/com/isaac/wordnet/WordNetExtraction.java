@@ -1,6 +1,6 @@
 package com.isaac.wordnet;
 
-import com.isaac.representation.SynsetElement;
+import com.isaac.phrases.SynsetElement;
 import edu.mit.jwi.item.POS;
 import javafx.util.Pair;
 

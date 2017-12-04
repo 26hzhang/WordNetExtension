@@ -1,7 +1,7 @@
 package com.isaac.examples;
 
-import com.isaac.representation.SynsetElement;
-import com.isaac.representation.WordElement;
+import com.isaac.phrases.SynsetElement;
+import com.isaac.phrases.WordElement;
 import com.isaac.wordnet.*;
 import com.isaac.wordnet.WordNetUtils;
 import edu.mit.jwi.item.ISynset;
