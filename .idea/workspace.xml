@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c909b8a5-e62a-4534-b803-58115ccca5d2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_apple_AppleJavaExtensions_1_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_4_10_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_4_10_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_4_10_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_4_10_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_4_10_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/verbnet/ThemanticRole.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/verbnet/VerbNet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/GeneralVerbNetExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/RootVerbClassesSummary.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/VerbNetInitExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/ExtendCoreWordNet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/GeneralWordNetExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/SenseKeyExample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNLevelSynsets.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbCauseEntailmentRelations.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbSynsetsCount.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/WordNetToNeo4JCypher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultSingleVerbExample.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/zhanghao.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/zhanghao.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_jollyday_jollyday_0_4_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_jollyday_jollyday_0_4_9.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_nlp_stanford_corenlp_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_nlp_stanford_corenlp_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_nlp_stanford_corenlp_models_3_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_stanford_nlp_stanford_corenlp_models_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/WordNetExtension.iml" afterPath="$PROJECT_DIR$/WordNetExtension.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/phrases/SynsetElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/phrases/SynsetElement.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/phrases/WordElement.java" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/phrases/WordElement.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/BaseExtraction.java" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/BaseExtraction.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNetExtraction.java" afterPath="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNetExtraction.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNetUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dict/wn-dict3.0.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/CoreWNClassificationByLexDom.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/CoreWNClassificationByLexDom.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/SenseKeyExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/TopNWordsExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNWordsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/VerbSynsetsCount.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultVerbHierarchiesToCypher.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbHierarchiesToCypher.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultVerbsHierarchy.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbsHierarchy.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/wnexamples/ExtendCoreWordNet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/wnexamples/TopNLevelSynsets.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/wnexamples/VerbCauseEntailmentRelations.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/wnexamples/WordNetToNeo4JCypher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/wnexamples/verbhier/MannerResultSingleVerbExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isaac/wordnet/BaseExtraction.class" afterPath="$PROJECT_DIR$/target/classes/com/isaac/wordnet/BaseExtraction.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isaac/wordnet/WordNetExtraction.class" afterPath="$PROJECT_DIR$/target/classes/com/isaac/wordnet/WordNetExtraction.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isaac/wordnet/WordNetUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dict/vn-dict3.2.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dict/wn-dict3.0.zip" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/isaac/examples/ExtendCoreWordNet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/isaac/examples/SenseKeyExample.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/isaac/examples/WordNetToNeo4JCypher.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +14,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <folding>
+                  <marker date="1513234236223" expanded="true" signature="3501:5236" ph="{...}" />
+                  <marker date="1513234236223" expanded="true" signature="5346:5972" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -92,6 +50,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -258,6 +217,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isaac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isaac" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -555,7 +523,7 @@
       <workItem from="1513218400031" duration="1489000" />
       <workItem from="1513219948777" duration="207000" />
       <workItem from="1513220203338" duration="283000" />
-      <workItem from="1513221591283" duration="4600000" />
+      <workItem from="1513221591283" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="clean up">
       <created>1504751642013</created>
@@ -599,11 +567,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512384376646</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cleanup and add VerbNet utils">
+      <created>1513234223526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1513234223526</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48963000" />
+    <option name="totallyTimeSpent" value="49056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="22" width="1395" height="878" extended-state="0" />
@@ -648,7 +623,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
+    <MESSAGE value="cleanup and add VerbNet utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup and add VerbNet utils" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -900,7 +876,7 @@
         <state relative-caret-position="193">
           <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="64" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,7 +894,7 @@
         <state relative-caret-position="315">
           <caret line="21" column="1" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -933,12 +909,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
             <folding>
-              <marker date="1513234168221" expanded="true" signature="3488:5223" ph="{...}" />
-              <marker date="1513234168221" expanded="true" signature="5333:5959" ph="{...}" />
+              <marker date="1513234236223" expanded="true" signature="3501:5236" ph="{...}" />
+              <marker date="1513234236223" expanded="true" signature="5346:5972" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

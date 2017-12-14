@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WordNet and VerbNet Extension in Java
 It's an extension of [WordNet API](https://projects.csail.mit.edu/jwi/) and [VerbNet API](http://projects.csail.mit.edu/jverbnet/) to analyze the structures of WordNet and VerbNet as well as extract information from both hierarchical structured commonsense knowledge database.
 
@@ -72,3 +73,10 @@ public class GeneralVerbNetExample {
     }
 }
 ```
+=======
+# WordNetExtension
+
+![Authour](https://img.shields.io/badge/Author-Zhang%20Hao%20(Isaac%20Changhau)-blue.svg)
+
+An extension of WordNet and analysing WordNet structure through WordNet-JWI
+>>>>>>> origin/master
