@@ -9,6 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("unused")
 public class WordNetExtraction {
 
     /**
@@ -22,7 +23,7 @@ public class WordNetExtraction {
     public static List<LinkedList<SynsetElement>> hierarchyPaths4Pairs (List<Pair<String, String>> wordSynIdPairs, POS tag) {
         List<LinkedList<SynsetElement>> hierarchies = new ArrayList<>();
         wordSynIdPairs.forEach(pair -> {
-            if (pair.getValue().isEmpty() || !WordNetUtils.synsetIdPattern(pair.getValue()))
+            if (pair.getValue().isEmpty() || !WordNet.synsetIdPattern(pair.getValue()))
                 hierarchies.addAll(BaseExtraction.hierarchyList(pair.getKey(), tag));
             else hierarchies.addAll(BaseExtraction.hierarchyList(pair.getKey(), pair.getValue(), tag));
         });
@@ -53,7 +54,7 @@ public class WordNetExtraction {
     public static List<LinkedList<SynsetElement>> hypernymPaths4Pairs (List<Pair<String, String>> wordSynIdPairs, POS tag) {
         List<LinkedList<SynsetElement>> hypernyms = new ArrayList<>();
         wordSynIdPairs.forEach(pair -> {
-            if (pair.getValue().isEmpty() || !WordNetUtils.synsetIdPattern(pair.getValue()))
+            if (pair.getValue().isEmpty() || !WordNet.synsetIdPattern(pair.getValue()))
                 hypernyms.addAll(BaseExtraction.hypernymList(pair.getKey(), tag));
             else hypernyms.addAll(BaseExtraction.hypernymList(pair.getKey(), pair.getValue(), tag));
         });
@@ -84,7 +85,7 @@ public class WordNetExtraction {
     public static List<LinkedList<SynsetElement>> hyponymPaths4Pairs (List<Pair<String, String>> wordSynIdPairs, POS tag) {
         List<LinkedList<SynsetElement>> hyponyms = new ArrayList<>();
         wordSynIdPairs.forEach(pair -> {
-            if (pair.getValue().isEmpty() || !WordNetUtils.synsetIdPattern(pair.getValue()))
+            if (pair.getValue().isEmpty() || !WordNet.synsetIdPattern(pair.getValue()))
                 hyponyms.addAll(BaseExtraction.hyponymList(pair.getKey(), tag));
             else hyponyms.addAll(BaseExtraction.hyponymList(pair.getKey(), pair.getValue(), tag));
         });

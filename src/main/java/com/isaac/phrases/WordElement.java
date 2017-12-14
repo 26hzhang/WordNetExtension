@@ -1,6 +1,6 @@
 package com.isaac.phrases;
 
-import com.isaac.wordnet.WordNetUtils;
+import com.isaac.wordnet.WordNet;
 import edu.mit.jwi.item.IIndexWord;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.IWord;
@@ -9,8 +9,9 @@ import edu.mit.jwi.item.POS;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.isaac.wordnet.WordNetUtils.wndict;
+import static com.isaac.wordnet.WordNet.wndict;
 
+@SuppressWarnings("unused")
 public class WordElement {
 	/** word lemma */
 	private String wordStr;
@@ -65,7 +66,7 @@ public class WordElement {
 	}
 
 	public String synsetsString() {
-		return String.join("\t", map.keySet().stream().map(synset -> WordNetUtils.synset2String(synset, false))
+		return String.join("\t", map.keySet().stream().map(synset -> WordNet.synset2String(synset, false))
 				.collect(Collectors.toList()));
 	}
 

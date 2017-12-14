@@ -12,8 +12,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static com.isaac.wordnet.WordNetUtils.*;
-
+@SuppressWarnings("unused")
 public class BaseExtraction {
 
     /**
@@ -62,11 +61,11 @@ public class BaseExtraction {
      */
     public static List<LinkedList<SynsetElement>> hypernymList (String wordString, POS tag) {
         List<LinkedList<SynsetElement>> hypernyms = new ArrayList<>();
-        IIndexWord idxWord = getIndexWord(wordString, tag);
+        IIndexWord idxWord = WordNet.getIndexWord(wordString, tag);
         if (idxWord == null) return hypernyms;
         List<IWordID> wordIDs = idxWord.getWordIDs(); // obtain word ids of the given word string
         for (IWordID wordId : wordIDs) {
-            ISynset synset = getWordByWordId(wordId).getSynset();
+            ISynset synset = WordNet.getWordByWordId(wordId).getSynset();
             hypernyms.addAll(hypernymList(synset));
         }
         return hypernyms;
@@ -82,9 +81,9 @@ public class BaseExtraction {
      */
     public static List<LinkedList<SynsetElement>> hypernymList (String wordString, String synsetId, POS tag) {
         List<LinkedList<SynsetElement>> hypernyms = new ArrayList<>();
-        IIndexWord idxWord = getIndexWord(wordString, tag);
+        IIndexWord idxWord = WordNet.getIndexWord(wordString, tag);
         if (idxWord == null) return hypernyms;
-        ISynset synset = getSynsetBySynsetId(parseSynsetIDString(synsetId));
+        ISynset synset = WordNet.getSynsetBySynsetId(WordNet.parseSynsetIDString(synsetId));
         if (synset == null) return hypernyms;
         return hypernymList(synset);
     }
@@ -112,11 +111,11 @@ public class BaseExtraction {
      */
     public static List<LinkedList<SynsetElement>> hyponymList (String wordString, POS tag) {
         List<LinkedList<SynsetElement>> hyponyms = new ArrayList<>();
-        IIndexWord idxWord = getIndexWord(wordString, tag);
+        IIndexWord idxWord = WordNet.getIndexWord(wordString, tag);
         if (idxWord == null) return hyponyms;
         List<IWordID> wordIDs = idxWord.getWordIDs(); // obtain word ids of the given word string
         for (IWordID wordId : wordIDs) {
-            ISynset synset = getWordByWordId(wordId).getSynset();
+            ISynset synset = WordNet.getWordByWordId(wordId).getSynset();
             hyponyms.addAll(hyponymList(synset));
         }
         return hyponyms;
@@ -132,9 +131,9 @@ public class BaseExtraction {
      */
     public static List<LinkedList<SynsetElement>> hyponymList (String wordString, String synsetId, POS tag) {
         List<LinkedList<SynsetElement>> hyponyms = new ArrayList<>();
-        IIndexWord idxWord = getIndexWord(wordString, tag);
+        IIndexWord idxWord = WordNet.getIndexWord(wordString, tag);
         if (idxWord == null) return hyponyms;
-        ISynset synset = getSynsetBySynsetId(parseSynsetIDString(synsetId));
+        ISynset synset = WordNet.getSynsetBySynsetId(WordNet.parseSynsetIDString(synsetId));
         if (synset == null) return hyponyms;
         return hyponymList(synset);
     }
@@ -160,7 +159,7 @@ public class BaseExtraction {
         }
         List<ISynsetID> ids = synset.getRelatedSynsets(Pointer.HYPERNYM);
         for (ISynsetID id : ids) {
-            ISynset syn = getSynsetBySynsetId(id);
+            ISynset syn = WordNet.getSynsetBySynsetId(id);
             list.addLast(new SynsetElement(syn));
             hypeRecursion(lists, syn, list);
             list.removeLast();
@@ -175,7 +174,7 @@ public class BaseExtraction {
         }
         List<ISynsetID> ids = synset.getRelatedSynsets(Pointer.HYPONYM);
         for (ISynsetID id : ids) {
-            ISynset syn = getSynsetBySynsetId(id);
+            ISynset syn = WordNet.getSynsetBySynsetId(id);
             list.addFirst(new SynsetElement(syn));
             hypoRecursion(lists, syn, list);
             list.removeFirst();

@@ -1,6 +1,6 @@
 package com.isaac.phrases;
 
-import com.isaac.wordnet.WordNetUtils;
+import com.isaac.wordnet.WordNet;
 import edu.mit.jwi.item.ISynset;
 import edu.mit.jwi.item.IWord;
 
@@ -8,8 +8,9 @@ import java.util.List;
 import java.util.OptionalDouble;
 import java.util.stream.Collectors;
 
-import static com.isaac.wordnet.WordNetUtils.wndict;
+import static com.isaac.wordnet.WordNet.wndict;
 
+@SuppressWarnings("unused")
 public class SynsetElement {
     /** synset */
     private ISynset synset;
@@ -39,7 +40,7 @@ public class SynsetElement {
     }
 
     /** @return synset string */
-    public String getSynsetStr() { return WordNetUtils.synset2String(synset, false); }
+    public String getSynsetStr() { return WordNet.synset2String(synset, false); }
 
     /** @return number of words in the synset */
     public int getWordsSize () { return synset.getWords().size(); }
