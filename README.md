@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 # WordNet and VerbNet Extension in Java
+
+![Authour](https://img.shields.io/badge/Author-Zhang%20Hao%20(Isaac%20Changhau)-blue.svg)
+
 It's an extension of [WordNet API](https://projects.csail.mit.edu/jwi/) and [VerbNet API](http://projects.csail.mit.edu/jverbnet/) to analyze the structures of WordNet and VerbNet as well as extract information from both hierarchical structured commonsense knowledge database.
 
 For WordNet, the [JWI (the MIT Java Wordnet Interface)](https://projects.csail.mit.edu/jwi/) tool is used, which is a Java library for interfacing with Wordnet. JWI supports access to Wordnet versions `1.6` through `3.0`, among other related Wordnet extensions. Currently, JWI is released at version `2.4.0`, all the binaries, manuals, development kit, API reference and etc. are available [here](https://projects.csail.mit.edu/jwi/). Besides, it's also allowed to be import into project through maven snippet: [[link]](https://mvnrepository.com/artifact/edu.mit/jwi) (latest version `2.2.3`).
