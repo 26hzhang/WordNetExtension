@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c909b8a5-e62a-4534-b803-58115ccca5d2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/AgentWithoutTheme.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/SubClassWithRoles.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/TopNLevelSynsets.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/VerbCauseEntailmentRelations.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/WordNetToNeo4JCypher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/GeneralVerbNetExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/RootVerbClassesSummary.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/VerbNetInitExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/VerbNetInitExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/CoreWNClassificationByLexDom.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/CoreWNClassificationByLexDom.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/ExtendCoreWordNet.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/ExtendCoreWordNet.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/GeneralWordNetExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/GeneralWordNetExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/SenseKeyExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/SenseKeyExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNLevelSynsets.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/TopNLevelSynsets.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNWordsExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/TopNWordsExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbCauseEntailmentRelations.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbCauseEntailmentRelations.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbSynsetsCount.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/WordNetToNeo4JCypher.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/WordNetToNeo4JCypher.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultSingleVerbExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultSingleVerbExample.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbHierarchiesToCypher.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultVerbHierarchiesToCypher.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbsHierarchy.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultVerbsHierarchy.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultSingleVerbExample.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,16 +37,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="642">
-                <caret line="76" column="3" lean-forward="false" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="461" lean-forward="false" selection-start-line="2" selection-start-column="461" selection-end-line="2" selection-end-column="461" />
                 <folding>
-                  <marker date="1513235966244" expanded="true" signature="3580:5315" ph="{...}" />
-                  <marker date="1513235966244" expanded="true" signature="5425:6051" ph="{...}" />
+                  <marker date="1514433781519" expanded="true" signature="3969:5704" ph="{...}" />
+                  <marker date="1514433781519" expanded="true" signature="5814:6440" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -62,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/Common.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/SynsetElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNetExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/isaac/examples/WordNetToNeo4JCypher.java" />
@@ -107,8 +137,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbSynsetsCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNet.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/SenseKeyExample.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/GeneralWordNetExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/GeneralVerbNetExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/GeneralWordNetExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultSingleVerbExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhier/MannerResultSingleVerbExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/AgentWithoutTheme.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/SubClassWithRoles.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -156,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +232,22 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="isaac" type="462c0819:PsiDirectoryNode" />
-              <item name="wordnet" type="462c0819:PsiDirectoryNode" />
+              <item name="verbnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dict" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
@@ -217,22 +268,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="isaac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="isaac" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="verbnet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
@@ -248,9 +298,6 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/data" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.isaac" />
       <recent name="com.isaac.wnexamples" />
@@ -259,10 +306,13 @@
       <recent name="com.isaac.testing" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/dict" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet" />
       <recent name="$PROJECT_DIR$/src/test/java/com/isaac/vnexamples" />
       <recent name="$PROJECT_DIR$/src/main/java/com/isaac/verbnet" />
       <recent name="$PROJECT_DIR$/src/test/java/com/isaac/examples" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/isaac/verbhier" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/data" />
     </key>
   </component>
@@ -345,11 +395,11 @@
     <configuration name="VerbNetInitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.isaac.examples.vnexamples.*" />
+          <option name="PATTERN" value="com.isaac.examples.verbnet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.isaac.examples.vnexamples.VerbNetInitExample" />
+      <option name="MAIN_CLASS_NAME" value="com.isaac.examples.verbnet.VerbNetInitExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -525,7 +575,13 @@
       <workItem from="1513219948777" duration="207000" />
       <workItem from="1513220203338" duration="283000" />
       <workItem from="1513221591283" duration="4889000" />
-      <workItem from="1513235793099" duration="175000" />
+      <workItem from="1513235793099" duration="301000" />
+      <workItem from="1513309828120" duration="600000" />
+      <workItem from="1513584586380" duration="387000" />
+      <workItem from="1513588763172" duration="1360000" />
+      <workItem from="1514267759886" duration="123000" />
+      <workItem from="1514367888729" duration="72000" />
+      <workItem from="1514433549998" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="clean up">
       <created>1504751642013</created>
@@ -590,11 +646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513234459747</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update README.md">
+      <created>1513235979937</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513235979938</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49427000" />
+    <option name="totallyTimeSpent" value="52362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,21 +678,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.50554323" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25542784" sideWeight="0.49445677" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20103474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2187731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -637,6 +699,7 @@
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,24 +714,14 @@
     <MESSAGE value="cleanup and add VerbNet utils" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="add Examples and update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Examples and update README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/BaseExtraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/Common.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/utils/IOUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNetExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/represent/WordElement.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/represent/SynsetElement.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/Common.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNetExample.java" />
@@ -715,52 +768,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/result_verbs_synsets.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/104-result-verbs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/manner_result_verbs_cypher.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46207">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbHierarchiesToCypher.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultVerbHierarchiesToCypher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="83" column="151" lean-forward="false" selection-start-line="83" selection-start-column="151" selection-end-line="83" selection-end-column="151" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbsHierarchy.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultVerbsHierarchy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="80" column="40" lean-forward="false" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbCauseEntailmentRelations.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbCauseEntailmentRelations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/WordNetToNeo4JCypher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -771,28 +796,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/verbs_hierarchies.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/vnexamples/VerbNetGeneralExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/BaseExtraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="156" column="124" lean-forward="false" selection-start-line="156" selection-start-column="120" selection-end-line="156" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/ThemanticRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WordNetExtension.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -814,102 +818,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/CoreWNClassificationByLexDom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNLevelSynsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbSynsetsCount.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultSingleVerbExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/ExtendCoreWordNet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/ExtendCoreWordNet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNWordsExample.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/TopNWordsExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/SenseKeyExample.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/SenseKeyExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="37" column="75" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="37" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/GeneralWordNetExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/BaseExtraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="2745">
+          <caret line="193" column="12" lean-forward="true" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/GeneralVerbNetExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/GeneralWordNetExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="75" lean-forward="false" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/CoreWNClassificationByLexDom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultSingleVerbExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="80" column="91" lean-forward="false" selection-start-line="80" selection-start-column="91" selection-end-line="80" selection-end-column="91" />
+        <state relative-caret-position="1425">
+          <caret line="105" column="45" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultSingleVerbExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="115" lean-forward="false" selection-start-line="20" selection-start-column="115" selection-end-line="20" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/TopNLevelSynsets.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/TopNLevelSynsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/ThemanticRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/VerbNetInitExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dict/verbnet-3.2/pay-68.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/manner_result_verbs_cypher.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="18" column="64" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/RootVerbClassesSummary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/104-result-verbs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="99" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="99" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/GeneralVerbNetExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/result_verbs_synsets.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="6" lean-forward="false" selection-start-line="82" selection-start-column="6" selection-end-line="82" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/verbs_hierarchies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/WordNetToNeo4JCypher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/VerbNetInitExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/VerbNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/AgentWithoutTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/SubClassWithRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
-          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -917,11 +986,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="642">
-            <caret line="76" column="3" lean-forward="false" selection-start-line="76" selection-start-column="3" selection-end-line="76" selection-end-column="3" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="461" lean-forward="false" selection-start-line="2" selection-start-column="461" selection-end-line="2" selection-end-column="461" />
             <folding>
-              <marker date="1513235966244" expanded="true" signature="3580:5315" ph="{...}" />
-              <marker date="1513235966244" expanded="true" signature="5425:6051" ph="{...}" />
+              <marker date="1514433781519" expanded="true" signature="3969:5704" ph="{...}" />
+              <marker date="1514433781519" expanded="true" signature="5814:6440" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

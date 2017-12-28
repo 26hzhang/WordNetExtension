@@ -1,4 +1,4 @@
-package com.isaac.examples.wnexamples;
+package com.isaac.examples.wordnet;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

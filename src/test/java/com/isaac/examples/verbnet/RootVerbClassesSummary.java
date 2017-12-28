@@ -1,4 +1,4 @@
-package com.isaac.examples.vnexamples;
+package com.isaac.examples.verbnet;
 
 import com.isaac.verbnet.ThemanticRole;
 import com.isaac.verbnet.VerbNet;
@@ -16,7 +16,8 @@ public class RootVerbClassesSummary {
         System.out.println("Root Classes: " + VerbNet.countRootVerbClasses());
         System.out.println("Sub Classes: " + VerbNet.countSubVerbClasses());
         // print title
-        System.out.println(String.join("\t", "Classes", "Frames", "Members", String.join("\t", ThemanticRole.roles)));
+        System.out.println(String.join("\t", "Classes", "Frames", "Members",
+                String.join("\t", ThemanticRole.roles)));
         Iterator<IVerbClass> iterator = VerbNet.rootVerbClassIterator(); // get IVerbClass iterator
         while (iterator.hasNext()) {
             IVerbClass verb = iterator.next();

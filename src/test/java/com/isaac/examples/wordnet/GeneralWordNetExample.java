@@ -1,4 +1,4 @@
-package com.isaac.examples.wnexamples;
+package com.isaac.examples.wordnet;
 
 import com.isaac.wordnet.WordNet;
 import edu.mit.jwi.item.*;
@@ -36,6 +36,5 @@ public class GeneralWordNetExample {
         }
         System.out.println(index);
         System.out.println(WordNet.getNumberOfSense4Word(lemma, POS.VERB));
-        // ......
     }
 }

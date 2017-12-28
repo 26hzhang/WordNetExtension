@@ -1,4 +1,4 @@
-package com.isaac.examples.wnexamples.verbhier;
+package com.isaac.examples.wordnet.verbhierarchy;
 
 import com.isaac.phrases.SynsetElement;
 import com.isaac.wordnet.WordNet;
@@ -18,7 +18,7 @@ public class MannerResultSingleVerbExample {
         IWord word = WordNet.getWordBySenseKey(key);
         ISynset synset = word.getSynset();
         System.out.println(synset.getGloss());
-        List<ISynset> synsets = synset.getRelatedSynsets(Pointer.HYPONYM).stream().map(WordNet.wndict::getSynset)
+        List<ISynset> synsets = synset.getRelatedSynsets(Pointer.HYPONYM).stream().map(WordNet::getSynsetBySynsetId)
                 .collect(Collectors.toList());
         synsets.forEach(syn -> {
             List<String> gloss = Arrays.asList(syn.getGloss().split(";")[0].split(" "));

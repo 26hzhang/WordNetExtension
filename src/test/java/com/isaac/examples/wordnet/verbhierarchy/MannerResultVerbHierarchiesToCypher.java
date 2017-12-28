@@ -1,4 +1,4 @@
-package com.isaac.examples.wnexamples.verbhier;
+package com.isaac.examples.wordnet.verbhierarchy;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

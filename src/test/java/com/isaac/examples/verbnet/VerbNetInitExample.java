@@ -1,8 +1,7 @@
-package com.isaac.examples.vnexamples;
+package com.isaac.examples.verbnet;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 import com.isaac.verbnet.VerbNet;
 import edu.mit.jverbnet.data.*;

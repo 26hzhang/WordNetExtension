@@ -1,4 +1,4 @@
-package com.isaac.examples.wnexamples.verbhier;
+package com.isaac.examples.wordnet.verbhierarchy;
 
 import com.isaac.phrases.SynsetElement;
 import com.isaac.wordnet.WordNet;

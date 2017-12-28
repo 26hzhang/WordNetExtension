@@ -1,6 +1,6 @@
 # WordNet and VerbNet Extension in Java
 
-![Authour](https://img.shields.io/badge/Author-Zhang%20Hao%20(Isaac%20Changhau)-blue.svg)
+![Authour](https://img.shields.io/badge/Author-Zhang%20Hao%20(Isaac%20Changhau)-blue.svg) [](https://img.shields.io/badge/Java-1.8-brightgreen.svg) ![](https://img.shields.io/badge/VerbNet-3.2b-brightgreen.svg) ![](https://img.shields.io/badge/WordNet-3.1-brightgreen.svg) ![](https://img.shields.io/badge/StanfordCoreNLP-3.8.0-yellowgreen.svg) ![](https://img.shields.io/badge/JVerbNet-1.2.0.1-yellowgreen.svg) ![](https://img.shields.io/badge/WordNetJWI-2.2.3-yellowgreen.svg)
 
 It's an extension of [WordNet API](https://projects.csail.mit.edu/jwi/) and [VerbNet API](http://projects.csail.mit.edu/jverbnet/) to analyze the structures of WordNet and VerbNet as well as extract information from both hierarchical structured commonsense knowledge database.
 

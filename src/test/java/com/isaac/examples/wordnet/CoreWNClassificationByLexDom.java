@@ -1,4 +1,4 @@
-package com.isaac.examples.wnexamples;
+package com.isaac.examples.wordnet;
 
 import com.isaac.wordnet.WordNet;
 import edu.mit.jwi.item.ISenseKey;
