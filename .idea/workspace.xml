@@ -2,30 +2,283 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c909b8a5-e62a-4534-b803-58115ccca5d2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/AgentWithoutTheme.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/SubClassWithRoles.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/accept-77.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/accompany-51.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/acquiesce-95.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/addict-96.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/adjust-26.9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/admire-31.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/admit-65.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/adopt-93.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/advise-37.9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/allow-64.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/amalgamate-22.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/amuse-31.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/animal_sounds-38.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/appeal-31.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/appear-48.1.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/appoint-29.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/assessment-34.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/assuming_position-50.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/avoid-52.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/banish-10.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/base-97.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/battle-36.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/become-109.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/beg-58.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/begin-55.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/being_dressed-41.3.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/bend-45.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/berry-13.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/bill-54.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/body_internal_motion-49.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/body_internal_states-40.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/braid-41.2.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/break-45.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/breathe-40.1.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/bring-11.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/build-26.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/bulge-47.5.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/bump-18.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/butter-9.9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/calibratable_cos-45.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/calve-28.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/captain-29.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/care-88.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/carry-11.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/carve-21.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/change_bodily_state-40.8.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/characterize-29.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/chase-51.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cheat-10.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/chew-39.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/chit_chat-37.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/classify-29.10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/clear-10.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cling-22.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/coil-9.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/coloring-24.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/complain-37.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/complete-55.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/comprehend-87.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/concealment-16.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/confess-37.10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/confine-92.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/confront-98.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/conjecture-29.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/consider-29.9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/conspire-71.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/consume-66.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/contiguous_location-47.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/continue-55.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/contribute-13.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/convert-26.6.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cooking-45.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cooperate-73.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cope-83.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/correlate-86.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/correspond-36.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cost-54.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/crane-40.3.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/create-26.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/curtsey-40.3.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/cut-21.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/debone-10.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/declare-29.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/dedicate-79.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/deduce-97.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/defend-85.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/destroy-44.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/devour-39.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/differ-23.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/dine-39.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/disappearance-48.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/disassemble-23.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/discover-84.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/dress-41.1.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/dressing_well-41.3.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/drive-11.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/dub-29.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/eat-39.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/empathize-88.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/enforce-63.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/engender-27.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/ensure-99.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/entity_specific_cos-45.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/entity_specific_modes_being-47.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/equip-13.4.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/escape-51.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/establish-55.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/estimate-34.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/exceed-90.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/exchange-13.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/exhale-40.1.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/exist-47.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/feeding-39.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/ferret-35.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/fill-9.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/fire-10.10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/fit-54.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/flinch-40.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/floss-41.2.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/focus-87.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/forbid-67.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/force-59.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/free-80.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/fulfilling-13.4.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/funnel-9.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/future_having-13.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/get-13.5.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/give-13.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/gobble-39.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/gorge-39.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/groom-41.1.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/grow-26.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/help-72.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/herd-47.5.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/hiccup-40.1.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/hire-13.5.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/hit-18.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/hold-15.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/hunt-35.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/hurt-40.8.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/illustrate-25.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/image_impression-25.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/indicate-78.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/inquire-37.1.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/instr_communication-37.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/interrogate-37.1.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/investigate-35.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/involve-107.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/judgment-33.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/keep-15.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/knead-26.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/learn-14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/leave-51.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/lecture-37.11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/light_emission-43.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/limit-76.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/linger-53.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/lodge-46.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/long-32.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/manner_speaking-37.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/marry-36.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/marvel-31.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/masquerade-29.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/matter-91.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/meander-47.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/meet-36.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/mine-10.9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/mix-22.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/modes_of_being_with_motion-47.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/multiply-108.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/murder-42.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/neglect-75.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/nonvehicle-51.4.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/nonverbal_expression-40.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/obtain-13.5.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/occurrence-48.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/order-60.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/orphan-29.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/other_cos-45.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/overstate-37.12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/own-100.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/pain-40.8.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/patent-101.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/pay-68.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/peer-30.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/pelt-17.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/performance-26.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/pit-10.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/pocket-9.10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/poison-42.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/poke-19.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/pour-9.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/preparing-26.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/price-54.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/promise-37.13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/promote-102.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/push-12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/put-9.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/put_direction-9.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/put_spatial-9.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/reach-51.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/reflexive_appearance-48.1.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/refrain-69.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/register-54.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/rehearse-26.8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/relate-86.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/rely-70.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/remedy-45.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/remove-10.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/require-103.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/resign-10.11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/risk-94.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/roll-51.3.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/rummage-35.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/run-51.3.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/rush-53.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/say-37.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/scribble-25.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/search-35.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/see-30.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/seem-109.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/send-11.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/separate-23.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/settle-89.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/shake-22.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/sight-30.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/simple_dressing-41.3.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/slide-11.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/smell_emission-43.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/snooze-40.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/sound_emission-43.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/sound_existence-47.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/spank-18.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/spatial_configuration-47.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/spend_time-104.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/split-23.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/spray-9.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/stalk-35.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/steal-10.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/stimulus_subject-30.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/stop-55.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/subjugate-42.3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/substance_emission-43.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/succeed-74.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/suffocate-40.7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/suspect-81.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/sustain-55.6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/swarm-47.5.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/swat-18.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/talk-37.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/tape-22.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/tell-37.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/throw-17.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/tingle-40.8.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/touch-20.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/transcribe-25.4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/transfer_mesg-37.1.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/try-61.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/turn-26.6.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/urge-58.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/use-105.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/vehicle-51.4.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/vn_class-3.dtd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/vn_schema-3.xsd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/void-106.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/waltz-51.5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/want-32.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/weather-57.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/weekend-56.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/wink-40.3.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/wipe_instr-10.4.2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/wipe_manner-10.4.1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/wish-62.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/dict/vn-dict3.2/withdraw-82.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/CountAllMembers.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/TopNLevelSynsets.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/VerbCauseEntailmentRelations.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/WordNetToNeo4JCypher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/GeneralVerbNetExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/RootVerbClassesSummary.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/vnexamples/VerbNetInitExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/VerbNetInitExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/CoreWNClassificationByLexDom.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/CoreWNClassificationByLexDom.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/ExtendCoreWordNet.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/ExtendCoreWordNet.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/GeneralWordNetExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/GeneralWordNetExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/SenseKeyExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/SenseKeyExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNLevelSynsets.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/TopNLevelSynsets.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/TopNWordsExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/TopNWordsExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbCauseEntailmentRelations.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbCauseEntailmentRelations.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/VerbSynsetsCount.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/WordNetToNeo4JCypher.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/WordNetToNeo4JCypher.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultSingleVerbExample.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultSingleVerbExample.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbHierarchiesToCypher.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultVerbHierarchiesToCypher.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wnexamples/verbhier/MannerResultVerbsHierarchy.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultVerbsHierarchy.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultSingleVerbExample.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java" afterPath="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,34 +290,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="40" lean-forward="false" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="461" lean-forward="false" selection-start-line="2" selection-start-column="461" selection-end-line="2" selection-end-column="461" />
-                <folding>
-                  <marker date="1514433781519" expanded="true" signature="3969:5704" ph="{...}" />
-                  <marker date="1514433781519" expanded="true" signature="5814:6440" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,8 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/isaac/wordnet/SynsetElement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNetExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/isaac/examples/WordNetToNeo4JCypher.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/SenseKeyExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/Example.java" />
@@ -145,6 +369,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/SubClassWithRoles.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/CountAllMembers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java" />
       </list>
     </option>
   </component>
@@ -191,7 +417,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,6 +468,15 @@
               <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="isaac" type="462c0819:PsiDirectoryNode" />
+              <item name="wordnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,13 +517,19 @@
               <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="verbnet" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WordNetExtension" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WordNetExtension" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="wordnet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,12 +572,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerbNetInitExample">
+  <component name="RunManager" selected="Application.VerbSynsetsCount">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="CountAllMembers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.isaac.examples.verbnet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.isaac.examples.verbnet.CountAllMembers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WordNetExtension" />
+      <envs />
+    </configuration>
+    <configuration name="RootVerbClassesSummary (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.isaac.examples.verbnet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.isaac.examples.verbnet.RootVerbClassesSummary" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WordNetExtension" />
+      <envs />
     </configuration>
     <configuration name="RootVerbClassesSummary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -343,44 +625,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.isaac.vnexamples.RootVerbClassesSummary" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WordNetExtension" />
-      <envs />
-    </configuration>
-    <configuration name="VerbCauseEntailmentRelations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.isaac.wnexamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.isaac.wnexamples.VerbCauseEntailmentRelations" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WordNetExtension" />
-      <envs />
-    </configuration>
-    <configuration name="VerbNetGeneralExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.isaac.vnexamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.isaac.vnexamples.VerbNetGeneralExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -414,11 +658,11 @@
     <configuration name="VerbSynsetsCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.isaac.wnexamples.*" />
+          <option name="PATTERN" value="com.isaac.examples.wordnet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.isaac.wnexamples.VerbSynsetsCount" />
+      <option name="MAIN_CLASS_NAME" value="com.isaac.examples.wordnet.VerbSynsetsCount" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -505,19 +749,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.VerbSynsetsCount" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VerbCauseEntailmentRelations" />
-      <item index="2" class="java.lang.String" itemvalue="Application.VerbNetGeneralExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RootVerbClassesSummary" />
-      <item index="4" class="java.lang.String" itemvalue="Application.VerbNetInitExample" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RootVerbClassesSummary" />
+      <item index="1" class="java.lang.String" itemvalue="Application.VerbNetInitExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RootVerbClassesSummary (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CountAllMembers" />
+      <item index="4" class="java.lang.String" itemvalue="Application.VerbSynsetsCount" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.VerbNetInitExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RootVerbClassesSummary" />
-        <item index="2" class="java.lang.String" itemvalue="Application.VerbNetGeneralExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.VerbSynsetsCount" />
-        <item index="4" class="java.lang.String" itemvalue="Application.VerbCauseEntailmentRelations" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VerbSynsetsCount" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CountAllMembers" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RootVerbClassesSummary (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.VerbNetInitExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RootVerbClassesSummary" />
       </list>
     </recent_temporary>
   </component>
@@ -581,7 +825,10 @@
       <workItem from="1513588763172" duration="1360000" />
       <workItem from="1514267759886" duration="123000" />
       <workItem from="1514367888729" duration="72000" />
-      <workItem from="1514433549998" duration="267000" />
+      <workItem from="1514433549998" duration="447000" />
+      <workItem from="1514435514045" duration="18000" />
+      <workItem from="1514988825798" duration="1210000" />
+      <workItem from="1515060329156" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="clean up">
       <created>1504751642013</created>
@@ -653,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513235979938</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Examples and update README.md">
+      <created>1514433817252</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514433817252</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52362000" />
+    <option name="totallyTimeSpent" value="53901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,17 +927,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.50554323" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25542784" sideWeight="0.49445677" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25542784" sideWeight="0.49445677" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2187731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22764228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -697,7 +952,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -722,7 +976,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/represent/SynsetElement.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/Common.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/ExtendCoreWordNetExample.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/data/core-wordnet-list.txt">
@@ -818,13 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="45" lean-forward="false" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/ExtendCoreWordNet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -869,13 +1115,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/verbhier/MannerResultSingleVerbExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="105" column="45" lean-forward="false" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/verbhierarchy/MannerResultSingleVerbExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -888,14 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/ThemanticRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,26 +1166,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/VerbNetInitExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/VerbNet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -975,6 +1190,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="461" lean-forward="false" selection-start-line="2" selection-start-column="461" selection-end-line="2" selection-end-column="461" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
@@ -983,17 +1208,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="461" lean-forward="false" selection-start-line="2" selection-start-column="461" selection-end-line="2" selection-end-column="461" />
-            <folding>
-              <marker date="1514433781519" expanded="true" signature="3969:5704" ph="{...}" />
-              <marker date="1514433781519" expanded="true" signature="5814:6440" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/ThemanticRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/CountAllMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/verbnet/RootVerbClassesSummary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/isaac/examples/wordnet/VerbSynsetsCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/wordnet/WordNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/isaac/verbnet/VerbNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#378#405#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
