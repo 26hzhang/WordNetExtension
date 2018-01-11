@@ -64,8 +64,11 @@ public class VerbNet {
     /** @return count of all subclasses in verbnet */
     public static int countSubVerbClasses () { return countAllVerbClasses() - countRootVerbClasses(); }
 
-    /** @return {@link IVerbClass} for a given string (the string here should be the ID of {@link IVerbClass}) */
+    /** @return root {@link IVerbClass} of a given string (the string here should be the ID of {@link IVerbClass}) */
     public static IVerbClass getRootVerb (String name) { return vndict.getRootVerb(name); }
+
+    /** @return {@link IVerbClass} of a given string (the string here should be the ID of {@link IVerbClass}) */
+    public static IVerbClass getVerb (String name) { return vndict.getVerb(name); }
 
     /** @return the number of members and members in sub-classes for a given string */
     public static int countMembersOfVerbClass (String name) { return countMembersOfVerbClass(getRootVerb(name)); }
