@@ -90,8 +90,8 @@ public class MannerResultVerbsHierarchyUpdate {
         List<String> words = preSynsetElement.getSynset().getWords().stream().map(IWord::getLemma).collect(Collectors.toList());
         for (String word : words) {
             int word_idx = gloss.indexOf(word);
-            if ((by_idx != -1 || word_idx != -1) && word_idx < with_idx) return true;
-            if ((with_idx != -1 || word_idx != -1) && word_idx < by_idx) return true;
+            if ((by_idx != -1 && word_idx != -1) && word_idx < by_idx) return true;
+            if ((with_idx != -1 && word_idx != -1) && word_idx < with_idx) return true;
         }
         return false;
     }
