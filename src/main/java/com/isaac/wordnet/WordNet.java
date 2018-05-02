@@ -68,6 +68,14 @@ public class WordNet {
         return count;
     }
 
+    /** @return number of unique hyponym for a given synset */
+    public static Integer countNumberOfChildren(ISynset iSynset) {
+        List<LinkedList<SynsetElement>> hyponmys = BaseExtraction.hyponymList(iSynset);
+        List<String> unique = hyponmys.stream().map(l -> l.stream().map(SynsetElement::getSynsetId).collect(Collectors.toList()))
+                .flatMap(List::stream).distinct().collect(Collectors.toList());
+        return unique.size();
+    }
+
     /** @return {@link ISenseKey} for a given senseKeyString, null if the format is incorrect */
     public static ISenseKey parseSenseKeyString (String senseKeyString) {
         return senseKeyPattern(senseKeyString) ? SenseKeyParser.getInstance().parseLine(senseKeyString) : null;

@@ -42,6 +42,9 @@ public class SynsetElement {
     /** @return synset string */
     public String getSynsetStr() { return WordNet.synset2String(synset, false); }
 
+    /** @return synset string with synset id */
+    public String getSynsetStrWithID() { return WordNet.synset2String(synset, true); }
+
     /** @return number of words in the synset */
     public int getWordsSize () { return synset.getWords().size(); }
 

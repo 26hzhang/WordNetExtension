@@ -112,8 +112,7 @@ public class WordNetExtraction {
     }
 
     /** @return {@link LinkedList} of {@link SynsetElement}, filtered by polysemy count (sense number) */
-    private static LinkedList<SynsetElement> filterSynsetElementListByPolysemy (LinkedList<SynsetElement> lists,
-                                                                               String method, double threshold) {
+    private static LinkedList<SynsetElement> filterSynsetElementListByPolysemy (LinkedList<SynsetElement> lists, String method, double threshold) {
         return lists.stream().filter(l -> l.getPolysemy(method) >= threshold).collect(Collectors.toCollection(LinkedList::new));
     }
 }

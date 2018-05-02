@@ -9,7 +9,6 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class MannerResultVerbsHierarchy {
     public static void main (String[] args) throws IOException {
@@ -18,10 +17,7 @@ public class MannerResultVerbsHierarchy {
                 .concat("data/104-result-verbs.txt")));
         // convert those synset string to ISynset (only if the those synsets are at the top level )
         List<ISynset> synsets = convert2SynsetsById(resultSynsetsString);
-        /*synsets.forEach(synset -> { // testing
-        	System.out.println(WordNet.synset2String(synset, false) + "\t" + synset.getGloss().split(";")[0].trim());
-        });
-        System.out.println(synsets.size());*/
+        // generate hierarchy data
         List<LinkedList<String>> results = new ArrayList<>();
         synsets.forEach(iSynset -> results.addAll(getTroponyms(iSynset)));
         BufferedWriter writer = new BufferedWriter(new FileWriter(WordNet.GLOBALPATH.concat("data/verbs_hierarchies.txt")));
@@ -63,22 +59,6 @@ public class MannerResultVerbsHierarchy {
             synsets.add(synset);
         });
         return synsets;
-    }
-
-    @SuppressWarnings("unused")
-    private static List<ISynset> convert2Synsets (List<String> resultSynsetsString) {
-        LinkedHashSet<ISynset> synsets = new LinkedHashSet<>();
-        resultSynsetsString.forEach(synsetStr -> {
-            String str = synsetStr.substring(1, synsetStr.length() - 1).split(", ")[0];
-            List<ISynset> synset = WordNet.getIndexWord(str, POS.VERB).getWordIDs().stream()
-                    .map(IWordID::getSynsetID)
-                    .map(WordNet::getSynsetBySynsetId)
-                    .filter(iSynset -> iSynset.getRelatedSynsets(Pointer.HYPERNYM).isEmpty() &&
-                            WordNet.synset2String(iSynset, false).equals(synsetStr))
-                    .collect(Collectors.toList());
-            synsets.addAll(synset);
-        });
-        return new ArrayList<>(synsets);
     }
 
     private static boolean isResultSynset (SynsetElement synsetElement) {

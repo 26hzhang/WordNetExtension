@@ -5,14 +5,11 @@ import com.isaac.wordnet.WordNet;
 import com.isaac.wordnet.BaseExtraction;
 import edu.mit.jwi.item.*;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class MannerResultSingleVerbExample {
-    public static void main (String[] args) throws IOException {
+    public static void main (String[] args) {
         String keyStr = "change%2:30:01::";
         ISenseKey key = WordNet.parseSenseKeyString(keyStr);
         IWord word = WordNet.getWordBySenseKey(key);
@@ -45,14 +42,6 @@ public class MannerResultSingleVerbExample {
             if (unique.add(res.toString())) result.add(res);
         }
         result.forEach(System.out::println);
-        BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/zhanghao/Desktop/test.txt"));
-        for (List<String> list : result) {
-            for (String str : list) {
-                writer.write(str.concat("\t"));
-            }
-            writer.write("\n");
-        }
-        writer.close();
         System.out.println("Done...");
     }
 
